@@ -4,14 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- ====== SEO ====== -->
 <title>Smart Switch Without Neutral Wire in India: The Honest 2026 Guide</title>
 <meta name="description" content="Most Indian switchboards have no neutral wire. The honest guide to smart switches that work without one — real tradeoffs, your actual options, and an interactive tool to find the right fit.">
-<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN/smart-switch-no-neutral-india">
+<link rel="canonical" href="https://dmaulikr.github.io/wattwise/">
 <meta property="og:title" content="Smart Switch Without Neutral Wire in India: The Honest 2026 Guide">
 <meta property="og:description" content="No neutral wire? Here's what actually works — plus a 20-second tool to find your fit.">
 <meta property="og:type" content="article">
-<meta property="og:image" content="https://REPLACE-WITH-YOUR-DOMAIN/og-no-neutral.png">
+<meta property="og:url" content="https://dmaulikr.github.io/wattwise/">
 
 <script type="application/ld+json">
 {
@@ -25,34 +24,22 @@
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
-
   :root{
-    --void:#090c0e; --void-2:#0c1013;
-    --panel:#11171b; --panel-2:#161d22;
+    --void:#090c0e; --void-2:#0c1013; --panel:#11171b; --panel-2:#161d22;
     --line:rgba(196,255,238,.10); --line-2:rgba(196,255,238,.18);
-    --amber:#ffb13b; --amber-deep:#e8951c;
-    --cyan:#54e0cf; --cyan-dim:rgba(84,224,207,.5);
+    --amber:#ffb13b; --amber-deep:#e8951c; --cyan:#54e0cf; --cyan-dim:rgba(84,224,207,.5);
     --text:#e9ece9; --soft:#8b9a95; --soft-2:#6d7a76;
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   html{scroll-behavior:smooth;}
-  body{
-    background:var(--void);color:var(--text);
-    font-family:'IBM Plex Sans',sans-serif;line-height:1.7;font-size:16.5px;
-    -webkit-font-smoothing:antialiased;overflow-x:hidden;
-  }
-  /* animated atmosphere */
+  body{background:var(--void);color:var(--text);font-family:'IBM Plex Sans',sans-serif;line-height:1.7;font-size:16.5px;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
   .bg-orbs{position:fixed;inset:0;z-index:-2;pointer-events:none;}
   .bg-orbs::before,.bg-orbs::after{content:"";position:absolute;border-radius:50%;filter:blur(90px);opacity:.5;}
   .bg-orbs::before{width:560px;height:560px;background:radial-gradient(circle,rgba(255,177,59,.20),transparent 70%);top:-160px;right:-120px;animation:drift1 18s ease-in-out infinite;}
   .bg-orbs::after{width:520px;height:520px;background:radial-gradient(circle,rgba(84,224,207,.16),transparent 70%);top:240px;left:-180px;animation:drift2 22s ease-in-out infinite;}
   @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,60px)}}
   @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(50px,-40px)}}
-  .bg-grid{position:fixed;inset:0;z-index:-1;pointer-events:none;
-    background-image:linear-gradient(rgba(196,255,238,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(196,255,238,.022) 1px,transparent 1px);
-    background-size:34px 34px;mask-image:radial-gradient(circle at 50% 30%,#000,transparent 90%);}
-
-  /* progress + nav */
+  .bg-grid{position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(rgba(196,255,238,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(196,255,238,.022) 1px,transparent 1px);background-size:34px 34px;mask-image:radial-gradient(circle at 50% 30%,#000,transparent 90%);}
   .progress{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--cyan),var(--amber));box-shadow:0 0 10px var(--amber);z-index:60;transition:width .1s;}
   nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);background:rgba(9,12,14,.72);border-bottom:1px solid var(--line);}
   .nav-in{max-width:880px;margin:0 auto;padding:12px 22px;display:flex;justify-content:space-between;align-items:center;}
@@ -62,14 +49,11 @@
   .nav-links a{color:var(--soft);text-decoration:none;border:none;transition:color .15s;}
   .nav-links a:hover{color:var(--amber);}
   @media(max-width:620px){.nav-links{display:none;}}
-
   .wrap{max-width:760px;margin:0 auto;padding:0 22px 90px;}
-
   .breadcrumb{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;color:var(--soft-2);padding:20px 0 0;text-transform:uppercase;}
   .breadcrumb a{color:var(--soft-2);text-decoration:none;border:none;}
   .breadcrumb a:hover{color:var(--cyan);}
   .breadcrumb span{color:var(--cyan);}
-
   header{padding:26px 0 26px;border-bottom:1px solid var(--line);position:relative;}
   .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:var(--cyan);display:inline-flex;align-items:center;gap:8px;}
   .eyebrow .blip{width:7px;height:7px;border-radius:50%;background:var(--amber);box-shadow:0 0 10px var(--amber);animation:blip 1.6s infinite;}
@@ -78,21 +62,17 @@
   h1 .glow{color:var(--amber);text-shadow:0 0 26px rgba(255,177,59,.45);}
   .standfirst{font-size:19px;line-height:1.55;color:var(--soft);max-width:54ch;}
   .meta{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--soft-2);margin-top:22px;letter-spacing:.06em;}
-
   .circuit{width:100%;height:34px;margin-top:24px;overflow:visible;}
   .circuit .trace{fill:none;stroke:var(--line-2);stroke-width:1.5;}
   .circuit .flow{fill:none;stroke:var(--amber);stroke-width:1.5;stroke-dasharray:14 200;filter:drop-shadow(0 0 5px var(--amber));animation:flow 3.4s linear infinite;}
   .circuit .flow2{stroke:var(--cyan);stroke-dasharray:10 240;filter:drop-shadow(0 0 5px var(--cyan));animation:flow 4.2s linear infinite reverse;}
   @keyframes flow{to{stroke-dashoffset:-214;}}
   .circuit .node{fill:var(--void);stroke:var(--line-2);stroke-width:1.5;}
-
   .rv{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);}
   .rv.in{opacity:1;transform:none;}
-
   .answer{margin:34px 0;border:1px solid var(--line-2);border-radius:10px;overflow:hidden;background:linear-gradient(180deg,var(--panel-2),var(--panel));}
   .answer .bar{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--void);background:var(--amber);padding:7px 16px;font-weight:500;}
   .answer .body{padding:18px 20px;font-size:17px;}
-
   h2{font-family:'Chakra Petch',sans-serif;font-weight:600;font-size:26px;margin:46px 0 12px;scroll-margin-top:70px;}
   h2 .hash{color:var(--cyan);font-family:'IBM Plex Mono',monospace;font-size:18px;margin-right:8px;opacity:.7;}
   h3{font-family:'Chakra Petch',sans-serif;font-weight:600;font-size:19px;margin:24px 0 6px;color:#fff;}
@@ -103,8 +83,6 @@
   ul li{position:relative;padding-left:22px;margin:10px 0;}
   ul li::before{content:"";position:absolute;left:2px;top:11px;width:8px;height:8px;background:var(--cyan);transform:rotate(45deg);box-shadow:0 0 8px var(--cyan-dim);}
   strong{color:#fff;font-weight:600;}
-
-  /* diagnostic */
   .diag{margin:36px 0;border:1px solid var(--line-2);border-radius:12px;background:radial-gradient(500px 200px at 50% 0%,rgba(255,177,59,.08),transparent 70%),linear-gradient(180deg,var(--panel-2),var(--panel));padding:26px 22px;position:relative;}
   .diag::before{content:"\25D0 INTERACTIVE";position:absolute;top:14px;right:16px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--cyan);opacity:.7;}
   .diag h3{font-family:'Chakra Petch',sans-serif;font-size:22px;margin:0 0 4px;color:#fff;}
@@ -117,14 +95,12 @@
   .qbtn:hover{border-color:var(--amber);background:rgba(255,177,59,.06);transform:translateY(-2px);}
   .qbtn.on{border-color:var(--amber);background:rgba(255,177,59,.12);box-shadow:0 0 0 1px var(--amber) inset,0 0 22px rgba(255,177,59,.18);}
   .qbtn small{display:block;color:var(--soft-2);font-size:12px;font-weight:400;margin-top:3px;}
-
   .computing{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--cyan);letter-spacing:.1em;display:none;align-items:center;gap:9px;margin-top:6px;}
   .computing.show{display:flex;}
   .computing .bars{display:inline-flex;gap:3px;}
   .computing .bars i{width:3px;height:12px;background:var(--cyan);display:inline-block;animation:eq .9s ease-in-out infinite;}
   .computing .bars i:nth-child(2){animation-delay:.15s}.computing .bars i:nth-child(3){animation-delay:.3s}.computing .bars i:nth-child(4){animation-delay:.45s}
   @keyframes eq{0%,100%{transform:scaleY(.4)}50%{transform:scaleY(1)}}
-
   .result{margin-top:8px;border-top:1px solid var(--line);padding-top:18px;opacity:0;transform:translateY(10px);transition:all .5s;display:none;}
   .result.show{opacity:1;transform:none;display:block;}
   .result .verdict-tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--cyan);}
@@ -133,10 +109,8 @@
   .result .jump{display:inline-block;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--void);background:var(--amber);padding:9px 16px;border-radius:6px;border:none;cursor:pointer;letter-spacing:.04em;}
   .result .jump:hover{background:#fff;}
   .restart{background:none;border:none;color:var(--soft-2);font-family:'IBM Plex Mono',monospace;font-size:12px;cursor:pointer;margin-top:14px;margin-left:14px;text-decoration:underline;}
-
   .callout{border:1px solid var(--line-2);border-left:3px solid var(--cyan);padding:16px 18px;margin:24px 0;border-radius:0 8px 8px 0;background:var(--panel);font-size:15.5px;}
   .callout .tag{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan);display:block;margin-bottom:6px;}
-
   .pick{border:1px solid var(--line-2);border-radius:10px;padding:20px;margin:16px 0;background:linear-gradient(180deg,var(--panel-2),var(--panel));transition:all .2s;position:relative;overflow:hidden;scroll-margin-top:80px;}
   .pick:hover{border-color:var(--amber);box-shadow:0 0 30px rgba(255,177,59,.08);transform:translateY(-2px);}
   .pick.flash{animation:flash 1.4s ease;}
@@ -146,8 +120,6 @@
   .pick-best{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--cyan);border:1px solid var(--cyan-dim);padding:4px 9px;border-radius:4px;white-space:nowrap;}
   .pick-line{font-size:15px;margin:6px 0;color:var(--soft);}
   .pick-line b{color:var(--amber);font-weight:500;}
-
-  /* proper retailer link row */
   .buy-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
   .buy{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:13px;padding:11px 16px;border-radius:7px;letter-spacing:.03em;text-decoration:none;border:1px solid var(--line-2);transition:all .18s;}
   .buy.amazon{background:var(--amber);color:var(--void);border-color:var(--amber);}
@@ -157,15 +129,8 @@
   .buy .shine{position:absolute;top:0;left:-120%;width:60%;height:100%;background:linear-gradient(110deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-18deg);}
   .buy:hover .shine{animation:shine .8s ease;}
   @keyframes shine{to{left:140%;}}
-
-  .todo{background:rgba(255,177,59,.07);border:1px dashed var(--amber-deep);color:#ffd9a0;padding:13px 15px;margin:18px 0;border-radius:8px;font-size:13px;font-family:'IBM Plex Mono',monospace;line-height:1.6;}
-  .todo b{color:var(--amber);}
-  .todo code{background:rgba(0,0,0,.3);padding:1px 5px;border-radius:3px;}
-
   .faq dt{font-family:'Chakra Petch',sans-serif;font-weight:600;font-size:17.5px;margin-top:20px;color:#fff;}
   .faq dd{margin:6px 0 0;color:var(--soft);}
-
-  /* related guides */
   .related{margin:50px 0 0;}
   .related h2{margin-bottom:16px;}
   .rel-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
@@ -175,9 +140,7 @@
   .rel-card .rc-tag{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--cyan);}
   .rel-card .rc-title{font-family:'Chakra Petch',sans-serif;font-weight:600;font-size:16px;color:#fff;margin-top:6px;line-height:1.25;}
   .rel-card .rc-arrow{color:var(--amber);font-family:'IBM Plex Mono',monospace;font-size:13px;margin-top:8px;display:inline-block;}
-
   .disclosure{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;color:var(--soft-2);line-height:1.65;font-family:'IBM Plex Mono',monospace;}
-
   footer{margin-top:40px;border-top:1px solid var(--line);background:var(--void-2);}
   .foot-in{max-width:760px;margin:0 auto;padding:30px 22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px;}
   .foot-col h4{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft-2);margin-bottom:10px;}
@@ -185,7 +148,6 @@
   .foot-col a:hover{color:var(--amber);}
   .foot-brand{font-family:'Chakra Petch',sans-serif;font-weight:700;color:#fff;font-size:15px;}
   .foot-note{max-width:760px;margin:0 auto;padding:0 22px 30px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--soft-2);letter-spacing:.05em;}
-
   .totop{position:fixed;bottom:22px;right:22px;z-index:40;width:44px;height:44px;border-radius:10px;background:var(--panel-2);border:1px solid var(--line-2);color:var(--amber);font-size:18px;cursor:pointer;opacity:0;pointer-events:none;transition:all .25s;box-shadow:0 6px 24px rgba(0,0,0,.4);}
   .totop.show{opacity:1;pointer-events:auto;}
   .totop:hover{border-color:var(--amber);transform:translateY(-2px);}
@@ -234,7 +196,6 @@
   <div class="diag rv" id="diag">
     <h3>Find your fit</h3>
     <p class="sub">Two taps. No data leaves your device &mdash; this runs entirely in your browser.</p>
-
     <div class="qstep" id="q1">
       <div class="qlabel">01 &mdash; Your home right now</div>
       <div class="qopts">
@@ -242,7 +203,6 @@
         <button class="qbtn" data-q="1" data-v="done">Finished home<small>Don't want to open walls</small></button>
       </div>
     </div>
-
     <div class="qstep hidden" id="q2">
       <div class="qlabel">02 &mdash; What do you want to automate?</div>
       <div class="qopts">
@@ -250,9 +210,7 @@
         <button class="qbtn" data-q="2" data-v="more">Fans, lights &amp; more<small>Full control at the switch</small></button>
       </div>
     </div>
-
     <div class="computing" id="computing"><span class="bars"><i></i><i></i><i></i><i></i></span> ANALYSING YOUR SETUP&hellip;</div>
-
     <div class="result" id="result">
       <span class="verdict-tag">RECOMMENDED PATH</span>
       <div class="verdict" id="verdict">&mdash;</div>
@@ -265,8 +223,6 @@
   <h2 class="rv"><span class="hash">01</span>Why this is even a problem</h2>
   <p class="rv">In most Indian homes &mdash; especially anything built before the last few years &mdash; the switchboard only carries the <strong>live wire</strong> and the <strong>switched live</strong> running up to your light or fan. The <strong>neutral</strong> usually goes straight to the light fitting, bypassing the switch box entirely.</p>
   <p class="rv">A normal switch doesn't care &mdash; it just breaks the live wire. But a <strong>smart</strong> switch is a tiny always-on computer. Its Wi-Fi or Zigbee radio needs a trickle of power even when the light is off, and traditionally needs both live <em>and</em> neutral to get it cleanly. No neutral in the box = the single most common reason a smart switch won't work in an Indian home.</p>
-
-  <div class="todo rv"><b>MAULIK &mdash; slot your voice here later:</b> a real line about checking your own switchboards during the build (did your boxes have neutral? what did the electrician say?). This is what no manufacturer blog can copy. If you genuinely have nothing, delete this box &mdash; don't fake it.</div>
 
   <h2 class="rv"><span class="hash">02</span>The tradeoff the "best switch" lists skip</h2>
   <p class="rv">The part that isn't flattering to anyone selling switches: a no-neutral smart switch is a <strong>compromise</strong>, not a free lunch. Because it siphons a small current through the load to stay alive, three things can happen:</p>
@@ -283,8 +239,8 @@
     <div class="pick-head"><span class="pick-name">1 &middot; No-neutral smart switch</span><span class="pick-best">Finished home &middot; fans + lights</span></div>
     <p class="pick-line">The direct answer. Built to run live-only, keeps your wall-switch look, controls fans and reasonable-wattage lights. <b>Catch:</b> pair a bypass module where you have low-wattage LEDs.</p>
     <div class="buy-row">
-      <a class="buy amazon" href="#AMAZON-AFFILIATE-LINK"><span class="shine"></span>View on Amazon.in &rarr;</a>
-      <a class="buy flipkart" href="#FLIPKART-AFFILIATE-LINK"><span class="shine"></span>View on Flipkart</a>
+      <a class="buy amazon" target="_blank" rel="sponsored nofollow noopener" href="https://www.amazon.in/s?k=smart+switch+without+neutral+wire"><span class="shine"></span>View on Amazon.in &rarr;</a>
+      <a class="buy flipkart" target="_blank" rel="sponsored nofollow noopener" href="https://www.flipkart.com/search?q=smart+switch+without+neutral"><span class="shine"></span>View on Flipkart</a>
     </div>
   </div>
 
@@ -292,8 +248,8 @@
     <div class="pick-head"><span class="pick-name">2 &middot; Retrofit smart module</span><span class="pick-best">Keep existing switches</span></div>
     <p class="pick-line">A small module hidden in the board or behind a fixture that makes a "dumb" device smart. Some come in no-neutral variants. <b>Catch:</b> fiddlier install; match the variant to your wiring.</p>
     <div class="buy-row">
-      <a class="buy amazon" href="#AMAZON-AFFILIATE-LINK"><span class="shine"></span>View on Amazon.in &rarr;</a>
-      <a class="buy flipkart" href="#FLIPKART-AFFILIATE-LINK"><span class="shine"></span>View on Flipkart</a>
+      <a class="buy amazon" target="_blank" rel="sponsored nofollow noopener" href="https://www.amazon.in/s?k=smart+switch+module+wifi"><span class="shine"></span>View on Amazon.in &rarr;</a>
+      <a class="buy flipkart" target="_blank" rel="sponsored nofollow noopener" href="https://www.flipkart.com/search?q=smart+switch+module"><span class="shine"></span>View on Flipkart</a>
     </div>
   </div>
 
@@ -301,8 +257,8 @@
     <div class="pick-head"><span class="pick-name">3 &middot; Smart bulbs</span><span class="pick-best">Lights only &middot; cheapest in</span></div>
     <p class="pick-line">The bulb is the smart device, so the neutral question disappears. <b>Catch:</b> lights only, and the wall switch must stay on to keep the bulb smart.</p>
     <div class="buy-row">
-      <a class="buy amazon" href="#AMAZON-AFFILIATE-LINK"><span class="shine"></span>View on Amazon.in &rarr;</a>
-      <a class="buy flipkart" href="#FLIPKART-AFFILIATE-LINK"><span class="shine"></span>View on Flipkart</a>
+      <a class="buy amazon" target="_blank" rel="sponsored nofollow noopener" href="https://www.amazon.in/s?k=smart+wifi+led+bulb"><span class="shine"></span>View on Amazon.in &rarr;</a>
+      <a class="buy flipkart" target="_blank" rel="sponsored nofollow noopener" href="https://www.flipkart.com/search?q=smart+wifi+led+bulb"><span class="shine"></span>View on Flipkart</a>
     </div>
   </div>
 
@@ -310,19 +266,15 @@
     <div class="pick-head"><span class="pick-name">4 &middot; Run a neutral + proper switches</span><span class="pick-best">Building / renovating</span></div>
     <p class="pick-line">The best time is while walls are open. Pull a neutral into the switch boxes, then use reliable neutral-required switches &mdash; no flicker, ever. <b>Catch:</b> more work now; far fewer compromises forever.</p>
     <div class="buy-row">
-      <a class="buy amazon" href="#AMAZON-AFFILIATE-LINK"><span class="shine"></span>View on Amazon.in &rarr;</a>
-      <a class="buy flipkart" href="#FLIPKART-AFFILIATE-LINK"><span class="shine"></span>View on Flipkart</a>
+      <a class="buy amazon" target="_blank" rel="sponsored nofollow noopener" href="https://www.amazon.in/s?k=zigbee+smart+switch"><span class="shine"></span>View on Amazon.in &rarr;</a>
+      <a class="buy flipkart" target="_blank" rel="sponsored nofollow noopener" href="https://www.flipkart.com/search?q=smart+touch+switch"><span class="shine"></span>View on Flipkart</a>
     </div>
   </div>
-
-  <div class="todo rv"><b>MAULIK &mdash; build-time verification before publishing:</b> picks above are <b>category placeholders</b> with honest selection logic baked in. Before publishing: (1) confirm current model + price on Amazon.in / Flipkart, (2) replace each <code>#AMAZON-AFFILIATE-LINK</code> / <code>#FLIPKART-AFFILIATE-LINK</code> with your Cuelinks / Associates link, (3) keep or swap brands per your own research. I have <b>not</b> verified live 2026 prices/models. Candidates to verify &mdash; no-neutral: Wipro / GM / Havells / Sonoff (no-neutral variant); retrofit: AZIOT / Sonoff Mini; bulbs: Wipro / Philips / Mi; fresh-build Zigbee: Aqara / Schneider Wiser / Smartify + hub.</div>
 
   <div class="callout rv"><span class="tag">Future-proofing</span>Where you can, prefer <strong>Matter-certified</strong> devices &mdash; the cross-brand standard backed by Apple, Google, Amazon and Samsung &mdash; to lower the odds of replacing everything in two years. For larger or multi-floor homes, a <strong>Zigbee</strong> mesh is usually more reliable through thick concrete walls than pure Wi-Fi.</div>
 
   <h2 class="rv"><span class="hash">04</span>What I'd choose</h2>
   <p class="rv">Finished home, no neutral, walls staying shut: a <strong>no-neutral Wi-Fi switch</strong> for fans and main lights, plus a <strong>bypass module</strong> wherever LEDs are low-wattage. Mid-build or renovating: <strong>run a neutral</strong> and buy proper neutral-required switches &mdash; you'll never fight flicker, and a Zigbee ecosystem scales across the whole house cleanly.</p>
-
-  <div class="todo rv"><b>MAULIK &mdash; your real pick goes here later.</b> This "what I'd choose" block is the highest-trust, highest-converting part of the page. A genuine opinion here beats any spec list. It's a sensible default for now &mdash; personalise when you can.</div>
 
   <h2 class="rv" id="faq"><span class="hash">05</span>FAQ</h2>
   <dl class="faq">
@@ -341,26 +293,10 @@
   <div class="related rv" id="related">
     <h2><span class="hash">06</span>Related guides</h2>
     <div class="rel-grid">
-      <a class="rel-card" href="#REPLACE-matter-vs-zigbee">
-        <span class="rc-tag">Protocols</span>
-        <div class="rc-title">Matter vs Zigbee vs Wi-Fi for an Indian home</div>
-        <span class="rc-arrow">Read &rarr;</span>
-      </a>
-      <a class="rel-card" href="#REPLACE-mesh-wifi">
-        <span class="rc-tag">Networking</span>
-        <div class="rc-title">Mesh Wi-Fi for a multi-floor / G+2 home</div>
-        <span class="rc-arrow">Read &rarr;</span>
-      </a>
-      <a class="rel-card" href="#REPLACE-buy-vs-skip">
-        <span class="rc-tag">Budget</span>
-        <div class="rc-title">Smart home: what's worth it vs what to skip</div>
-        <span class="rc-arrow">Read &rarr;</span>
-      </a>
-      <a class="rel-card" href="#REPLACE-starter-kit">
-        <span class="rc-tag">Getting started</span>
-        <div class="rc-title">The cheapest honest smart-home starter setup</div>
-        <span class="rc-arrow">Read &rarr;</span>
-      </a>
+      <a class="rel-card" href="#"><span class="rc-tag">Protocols</span><div class="rc-title">Matter vs Zigbee vs Wi-Fi for an Indian home</div><span class="rc-arrow">Coming soon</span></a>
+      <a class="rel-card" href="#"><span class="rc-tag">Networking</span><div class="rc-title">Mesh Wi-Fi for a multi-floor / G+2 home</div><span class="rc-arrow">Coming soon</span></a>
+      <a class="rel-card" href="#"><span class="rc-tag">Budget</span><div class="rc-title">Smart home: what's worth it vs what to skip</div><span class="rc-arrow">Coming soon</span></a>
+      <a class="rel-card" href="#"><span class="rc-tag">Getting started</span><div class="rc-title">The cheapest honest smart-home starter setup</div><span class="rc-arrow">Coming soon</span></a>
     </div>
   </div>
 
@@ -376,15 +312,15 @@
     </div>
     <div class="foot-col">
       <h4>Guides</h4>
-      <a href="#REPLACE-matter-vs-zigbee">Matter vs Zigbee vs Wi-Fi</a>
-      <a href="#REPLACE-mesh-wifi">Mesh Wi-Fi for big homes</a>
-      <a href="#REPLACE-buy-vs-skip">Worth it vs skip</a>
+      <a href="#">Matter vs Zigbee vs Wi-Fi</a>
+      <a href="#">Mesh Wi-Fi for big homes</a>
+      <a href="#">Worth it vs skip</a>
     </div>
     <div class="foot-col">
       <h4>Site</h4>
-      <a href="#REPLACE-about">About &amp; method</a>
-      <a href="#REPLACE-disclosure">Affiliate policy</a>
-      <a href="#REPLACE-contact">Contact</a>
+      <a href="#">About &amp; method</a>
+      <a href="#">Affiliate policy</a>
+      <a href="#">Contact</a>
     </div>
   </div>
   <div class="foot-note">&copy; 2026 WATTWISE &middot; ALL PRICES &amp; SPECS SUBJECT TO CHANGE &middot; NOT PROFESSIONAL ELECTRICAL ADVICE</div>
@@ -393,22 +329,11 @@
 <button class="totop" id="totop" aria-label="Back to top">&uarr;</button>
 
 <script>
-  /* reveal on scroll */
-  var io=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
-  },{threshold:.12});
+  var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
   document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
-
-  /* progress bar + back-to-top */
-  var progress=document.getElementById('progress'), totop=document.getElementById('totop');
-  window.addEventListener('scroll',function(){
-    var h=document.documentElement, st=h.scrollTop, max=h.scrollHeight-h.clientHeight;
-    progress.style.width=(max>0?(st/max*100):0)+'%';
-    totop.classList.toggle('show', st>600);
-  });
+  var progress=document.getElementById('progress'),totop=document.getElementById('totop');
+  window.addEventListener('scroll',function(){var h=document.documentElement,st=h.scrollTop,max=h.scrollHeight-h.clientHeight;progress.style.width=(max>0?(st/max*100):0)+'%';totop.classList.toggle('show',st>600);});
   totop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
-
-  /* diagnostic */
   var state={1:null,2:null};
   var q2=document.getElementById('q2'),resultEl=document.getElementById('result'),computing=document.getElementById('computing');
   var verdictEl=document.getElementById('verdict'),whyEl=document.getElementById('verdictWhy'),jumpBtn=document.getElementById('jumpBtn');
@@ -422,32 +347,14 @@
     btn.addEventListener('click',function(){
       var q=btn.dataset.q,v=btn.dataset.v;
       document.querySelectorAll('.qbtn[data-q="'+q+'"]').forEach(function(b){b.classList.remove('on');});
-      btn.classList.add('on'); state[q]=v;
-      if(q==="1"){
-        if(v==="build"){ q2.classList.add('hidden'); state[2]=null; finish('build'); }
-        else { q2.classList.remove('hidden'); resultEl.classList.remove('show'); computing.classList.remove('show'); }
-      }
-      if(q==="2"){ finish(v); }
+      btn.classList.add('on');state[q]=v;
+      if(q==="1"){if(v==="build"){q2.classList.add('hidden');state[2]=null;finish('build');}else{q2.classList.remove('hidden');resultEl.classList.remove('show');computing.classList.remove('show');}}
+      if(q==="2"){finish(v);}
     });
   });
-  function finish(key){
-    resultEl.classList.remove('show'); computing.classList.add('show');
-    setTimeout(function(){
-      var r=verdicts[key];
-      verdictEl.textContent=r.name; whyEl.textContent=r.why; targetId=r.target;
-      computing.classList.remove('show'); resultEl.classList.add('show');
-    },650);
-  }
-  jumpBtn.addEventListener('click',function(){
-    var el=document.getElementById(targetId);
-    el.scrollIntoView({behavior:'smooth',block:'center'});
-    el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
-  });
-  document.getElementById('restartBtn').addEventListener('click',function(){
-    state[1]=null;state[2]=null;
-    document.querySelectorAll('.qbtn').forEach(function(b){b.classList.remove('on');});
-    q2.classList.add('hidden'); resultEl.classList.remove('show'); computing.classList.remove('show');
-  });
+  function finish(key){resultEl.classList.remove('show');computing.classList.add('show');setTimeout(function(){var r=verdicts[key];verdictEl.textContent=r.name;whyEl.textContent=r.why;targetId=r.target;computing.classList.remove('show');resultEl.classList.add('show');},650);}
+  jumpBtn.addEventListener('click',function(){var el=document.getElementById(targetId);el.scrollIntoView({behavior:'smooth',block:'center'});el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');});
+  document.getElementById('restartBtn').addEventListener('click',function(){state[1]=null;state[2]=null;document.querySelectorAll('.qbtn').forEach(function(b){b.classList.remove('on');});q2.classList.add('hidden');resultEl.classList.remove('show');computing.classList.remove('show');});
 </script>
 </body>
 </html>
